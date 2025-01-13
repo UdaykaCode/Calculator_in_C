@@ -1,7 +1,7 @@
 # Calculator Program Documentation
 
 ## Introduction
-This program is a multifunctional console-based calculator developed by **@UdaykaCode**. It offers a variety of mathematical operations, ranging from basic arithmetic to advanced matrix operations, number manipulations, and geometric area calculations. The program is written in C and provides a user-friendly menu-driven interface.
+It offers a variety of mathematical operations, ranging from basic arithmetic to advanced matrix operations, number manipulations, and geometric area calculations. The program is written in C and provides a user-friendly menu-driven interface.
 
 ---
 
@@ -123,20 +123,18 @@ The Matrix Addition is:
 ---
 
 ## Known Issues
-- Armstrong Number functionality is incomplete and may not produce correct results.
 - The progam return to the main body on choosing `Back` options.
 - The program terminates immediately on choosing `Exit` options.
 
 ---
 
 ## Future Enhancements
-- Fix the Armstrong Number logic.
 - Improve input validation to handle incorrect data types.
 - Add more mathematical operations such as logarithms and trigonometric functions.
 
 ---
 
-## License
+## Message
 This program is developed by **@UdaykaCode**. You are free to use and modify it as needed.
 Copyright 2025, the project authors. All rights reserved.
 
