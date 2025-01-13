@@ -321,11 +321,17 @@ void arm()
     e = num;
     while (e > 0)
     {
-        d = e / 10;
+        d = e % 10;
         sum = sum + ((int)pow(d, count));
         e = e / 10;
     }
-    printf("%d", sum);
+
+    if(sum==num){
+        printf("\n%d is an Armstrong Number",num);
+    }
+    else{
+    printf("\n%d is not an Armstrong Number",num);
+    }
 }
 //-----------------------------------------------------------------------
 
