@@ -38,20 +38,6 @@ It offers a variety of mathematical operations, ranging from basic arithmetic to
 
 ---
 
-## Usage
-
-### Compilation and Execution
-1. Save the code in a file with a `.c` extension, e.g., `calculator.c`.
-2. Compile the program using a C compiler (e.g., GCC):
-   ```bash
-   gcc calculator.c -o calculator -lm
-   ```
-   The `-lm` flag is necessary to link the math library for functions like `sqrt` and `pow`.
-3. Run the compiled executable:
-   ```bash
-   ./calculator
-   ```
-
 ### Navigation
 1. Upon running, the program displays the main menu.
 2. Enter the corresponding number to choose an operation.
@@ -60,26 +46,6 @@ It offers a variety of mathematical operations, ranging from basic arithmetic to
 5. To back or exit, choose the `Back` or `Exit` option from the menu.
 
 ---
-
-## Code Structure
-
-### Header Files
-```c
-#include <stdio.h>
-#include <stdlib.h>
-#include <math.h>
-```
-- **`stdio.h`**: For input/output operations.
-- **`stdlib.h`**: For memory allocation and program termination.
-- **`math.h`**: For mathematical functions like `sqrt` and `pow`.
-
-### Functions
-- **Arithmetic Operations**: `add()`, `sub()`, `multi()`, `divi()`
-- **Matrix Operations**: `mtxadd()`, `mtxsub()`, `mtxmulti()`
-- **Interest Calculation**: `si()`
-- **Temperature Conversion**: `ctof()`
-- **Digit Manipulation**: `pln()`, `prn()`, `pfn()`, `arm()`, `fact()`, `facto()`, `spy()`
-- **Geometric Area Calculations**: `ar()`, `as()`, `at()`, `ac()`
 
 ### Memory Management
 Dynamic memory allocation is used for matrix operations to handle matrices of varying dimensions efficiently. Memory is deallocated after use to prevent memory leaks.
@@ -135,6 +101,6 @@ The Matrix Addition is:
 ---
 
 ## Message
-This program is developed by **@UdaykaCode**. You are free to use and modify it as needed.
-Copyright 2025, the project authors. All rights reserved.
+This program is developed by **@UdaykaCode**.
+Copyright 2025. All rights reserved.
 
